@@ -24,7 +24,7 @@ export default function WithBackgroundImage() {
         w={"full"}
         justify={"center"}
         px={useBreakpointValue({ base: 4, md: 8 })}
-        bgGradient={"linear(to-r, blackAlpha.600, transparent)"}
+        bgGradient={"linear(to-b, blackAlpha.900, transparent)"}
       >
         <Stack maxW={"2xl"} align={"flex-start"} spacing={6}>
           <Text

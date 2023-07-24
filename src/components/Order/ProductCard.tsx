@@ -47,7 +47,7 @@ export const ProductCard = (props: Props) => {
         <Stack spacing="1">
           <Text
             fontWeight="medium"
-            color={useColorModeValue("gray.700", "gray.400")}
+            color={"whiteAlpha.900"}
           >
             {name}
           </Text>
@@ -55,21 +55,21 @@ export const ProductCard = (props: Props) => {
         </Stack>
         <HStack>
           <Rating defaultValue={rating} size="sm" />
-          <Text fontSize="sm" color={useColorModeValue("gray.600", "gray.400")}>
+          <Text fontSize="sm" color={"whiteAlpha.900"}>
             12 Reviews
           </Text>
         </HStack>
       </Stack>
       <Stack align="center">
-        <Button colorScheme="blue" width="full">
+        <Button colorScheme="gray" width="full">
           Add to cart
         </Button>
         <Link
           textDecoration="underline"
           fontWeight="medium"
-          color={useColorModeValue("gray.600", "gray.400")}
+          color={"whiteAlpha.900"}
         >
-          Quick shop
+          Buy Now
         </Link>
       </Stack>
     </Stack>

@@ -72,7 +72,7 @@ export default function Navbar() {
           <Flex alignItems={"center"}>
             <Button
               variant={"solid"}
-              colorScheme={"teal"}
+              colorScheme={"red"}
               size={"sm"}
               mr={4}
               leftIcon={<AddIcon />}
