@@ -19,7 +19,7 @@ import {
   Stack,
   useBreakpointValue,
 } from "@chakra-ui/react";
-import { HamburgerIcon, CloseIcon, AddIcon } from "@chakra-ui/icons";
+import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 
 const Links = ["Order Now", "Trivia", "Social"];
 
@@ -72,10 +72,12 @@ export default function Navbar() {
           <Flex alignItems={"center"}>
             <Button
               variant={"solid"}
-              colorScheme={"red"}
+              bg="#A61103"
+              color="white"
               size={"sm"}
               mr={4}
-              leftIcon={<AddIcon />}
+              _hover={{color:"black", bg:"white"}} 
+              // leftIcon={<AddIcon />}
             >
               Login
             </Button>

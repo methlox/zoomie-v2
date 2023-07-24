@@ -37,10 +37,10 @@ export default function WithBackgroundImage() {
           </Text>
           <Stack direction={"row"}>
             <Button
-              bg={"blue.400"}
+              bg={"#F28705"}
               rounded={"full"}
               color={"white"}
-              _hover={{ bg: "blue.500" }}
+              _hover={{ bg: "#F2B705" }}
             >
               Order Now
             </Button>
