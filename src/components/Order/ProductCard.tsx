@@ -55,22 +55,22 @@ export const ProductCard = (props: Props) => {
         </Stack>
         <HStack>
           <Rating defaultValue={rating} size="sm" />
-          <Text fontSize="sm" color={"whiteAlpha.900"}>
-            12 Reviews
-          </Text>
         </HStack>
       </Stack>
       <Stack align="center">
-        <Button colorScheme="gray" width="full">
+        <Button bg= "#F28705" width="full" _hover={{bg: "#F2B705"}}>
           Add to cart
         </Button>
-        <Link
+        <Button variant='outline' colorScheme='orange' width="full">
+          Buy Now
+        </Button>
+        {/* <Link
           textDecoration="underline"
           fontWeight="medium"
           color={"whiteAlpha.900"}
         >
           Buy Now
-        </Link>
+        </Link> */}
       </Stack>
     </Stack>
   );
