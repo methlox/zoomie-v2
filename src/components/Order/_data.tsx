@@ -1,7 +1,7 @@
 export const images = [
   {
     id: "01",
-    src: "https://images.unsplash.com/photo-1602024242516-fbc9d4fda4b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+    src: "https://images.unsplash.com/photo-1613844237701-8f3664fc2eff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80",
     alt: "Awesome watch",
   },
   {
@@ -34,55 +34,58 @@ export const images = [
 export const products = [
   {
     id: "1",
-    name: "Bamboo Tan",
+    name: "Special Soup",
     currency: "USD",
-    price: 199,
+    price: 19,
+    salePrice: 12.99,
     flag: "new",
     imageUrl:
-      "https://images.unsplash.com/photo-1602024242516-fbc9d4fda4b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+      "https://images.unsplash.com/photo-1613844237701-8f3664fc2eff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80",
     rating: 4,
-    ratingCount: 1,
+    ratingCount: 199,
     description:
       "With a sleek design and a captivating essence, this is a modern Classic made for every occasion.",
     images,
   },
   {
     id: "2",
-    name: "Iconic Turquoise",
+    name: "Fried Noodles",
     currency: "USD",
-    price: 199,
-    salePrice: 179.99,
+    price: 20,
+    salePrice: 17.99,
     flag: "on-sale",
     imageUrl:
-      "https://images.unsplash.com/photo-1509941943102-10c232535736?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+      "https://images.unsplash.com/photo-1635685296916-95acaf58471f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG5vb2RsZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
     rating: 4,
-    ratingCount: 12,
+    ratingCount: 300,
     description:
       "With a sleek design and a captivating essence, this is a modern Classic made for every occasion.",
     images,
   },
   {
     id: "3",
-    name: "Marble Leather",
+    name: "Paneer Momos",
     currency: "USD",
-    price: 199,
+    price: 5,
+    salePrice: 3.99,
     imageUrl:
-      "https://images.unsplash.com/photo-1564594985645-4427056e22e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+      "https://images.unsplash.com/photo-1647999019630-dabe1a837693?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8a3Vya3VyZSUyMG1vbW9zfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
     rating: 4,
-    ratingCount: 12,
+    ratingCount: 900,
     description:
       "With a sleek design and a captivating essence, this is a modern Classic made for every occasion.",
     images,
   },
   {
     id: "4",
-    name: "Silve wolf",
-    currency: "GBP",
-    price: 199,
+    name: "Roast Chicken Wrap",
+    currency: "USD",
+    price: 20,
+    salePrice: 19.99,
     imageUrl:
-      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=680&q=80",
+      "https://images.unsplash.com/photo-1630914441316-6d95bbd00caf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
     rating: 5,
-    ratingCount: 1,
+    ratingCount: 166,
     description:
       "With a sleek design and a captivating essence, this is a modern Classic made for every occasion.",
     images,
